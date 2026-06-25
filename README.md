@@ -23,9 +23,10 @@ public raw URL을 WebFetch 하거나 레포를 checkout 한다.
 예: `https://raw.githubusercontent.com/das00n/eggdrop-design-system/master/STYLE-GUIDE.md`
 
 ## Tailwind 연동
+npm 패키지가 아니므로(spec §9), 이 레포를 클론한 위치를 상대/절대 경로로 가리킨다.
 ```js
-// tailwind.config.js
-module.exports = { presets: [require('eggdrop-design-system/tailwind.preset.js')] };
+// tailwind.config.js — 경로는 이 레포 클론 위치에 맞춰 조정
+module.exports = { presets: [require('../eggdrop-design-system/tailwind.preset.js')] };
 ```
 
 ## 수정·확장

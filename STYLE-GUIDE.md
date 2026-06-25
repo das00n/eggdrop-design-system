@@ -45,7 +45,7 @@ Tailwind: `class="h-9 px-4 rounded-md text-sm font-medium bg-primary text-primar
 Tailwind: `<label class="text-caption text-gray-500">` + `<input class="h-9 px-2.5 border border-gray-300 rounded-md text-body focus:outline-none focus:ring-2 focus:ring-ink">`.
 
 ### 3. 카드
-- 화이트 배경 + gray-300 테두리 + `radius-lg` + 패딩 16px. 지표 카드 변형: gray-100 배경, 테두리 없음, 숫자 `text-metric`.
+- 화이트 배경 + gray-300 테두리 + `radius-lg` + 패딩 16px. 지표 카드 변형(컴팩트): gray-100 배경, 테두리 없음, `radius-md`, 숫자 `text-metric`.
 ```html
 <div style="background:var(--c-gray-100);border-radius:var(--radius-md);padding:var(--space-3) var(--space-4);">
   <div style="font:var(--text-caption);color:var(--c-gray-500);">오늘 매출</div>
